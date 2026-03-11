@@ -13,5 +13,3 @@ A simple personal biography website to showcase my skills, education, and backgr
 - HTML5
 - CSS3 (Flexbox, Grid)
 
-## 🌐 Live Demo
-https://mahgolhosseini.github.io/biography/
