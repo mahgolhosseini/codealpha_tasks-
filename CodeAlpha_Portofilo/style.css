@@ -1,0 +1,93 @@
+body {
+    font-family: Tahoma, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #555555;
+}
+
+header {
+    background-color: rgba(103, 103, 103, 0.153) ;
+    display: flex;         
+    align-items: center;     
+    padding: 20px;
+    border-radius: 30px;
+    flex-wrap: wrap;
+}
+
+.pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin-right: 20px;    
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;  
+}
+.header-text h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header-text p {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+}
+ 
+section {
+    padding: 2rem;
+    margin: 10px auto;
+    max-width: 90%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 70px;
+}
+footer{
+
+    padding: 10px;
+    text-align: center;
+    border-radius: 70px;
+    background-color: #222;
+    color: rgb(235, 235, 235);
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 600px) {
+
+    /* Header واکنش‌گرا */
+    header {
+        flex-direction: column; /* عکس بالای متن */
+        align-items: center;    /* وسط چین افقی */
+        text-align: center;
+    }
+
+    .pic {
+        margin-right: 0;
+        margin-bottom: 15px;
+        width: 120px;
+        height: 120px;
+    }
+
+    .header-text h1 {
+        font-size: 20px;
+    }
+
+    .header-text p {
+        font-size: 14px;
+    }
+
+    section {
+        padding: 1rem;
+        max-width: 95%;
+    }
+
+    body {
+        font-size: 14px;
+    }
+}
